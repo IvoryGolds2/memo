@@ -1,4 +1,14 @@
-  <section>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <?php 
+    include './db.php';
+    include './front_header.php';
+    $category = $_POST['category'];
+  ?>
+  <link rel="stylesheet" href="./css/commmon.css">
+</head>
+<section>
     <?php
       $sql = query("SELECT * from faq");
       foreach($sql as $key => $val) { ?>

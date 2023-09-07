@@ -68,3 +68,25 @@
         $i++;
       }
     ?>
+
+<div class="contentA">
+          <?php if($val2['title']) { ?>
+            <p class="title"><?= $val2['title'] ?></p>
+          <?php } ?>
+          <?php
+            $sql3 = query("SELECT DISTINCT * from content WHERE title = '$val2[title]' and category = '$category'");
+            foreach ($sql3 as $key3 => $val3) {
+          ?>
+              <?php if($val3['subtitle']) { ?>
+                <p class="subtitle"><?= $val3['subtitle'] ?></p>
+              <?php } ?>
+              <?php if($val3['content']) { ?>
+                <pre><?= $val3['content'] ?></pre>
+              <?php } ?>
+              <?php if($val3['chart']) { ?>
+                <img src="./img/<?= $val3['chart'] ?>.png" alt="">
+              <?php } ?>
+          <?php
+            }
+          ?>  
+        </div>
