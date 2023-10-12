@@ -7,7 +7,6 @@
     include './front_header.php';
     $category = $_POST['category'];
   ?>
-<link rel="stylesheet" href="./css/commmon.css">
 </head>
 <body>
   <div class="backgroundcolorwrapper">
@@ -18,7 +17,8 @@
     </header>
     <section>
       <div class="homeinnerWrapper">
-      <a href="javascript:;" onclick="postDataContentA('SUB1')"><img src="./img/main-btn1.png" alt=""></a>
+      <a href="javascript:;" onclick="postDataContent('SUB1')"><img src="./img/main-btn1.png" alt=""></a>
+      <a href="./content.php?category=B"><img src="./img/sub-btn-2.png" alt=""></a>
       </div>
     </section>
   </div>

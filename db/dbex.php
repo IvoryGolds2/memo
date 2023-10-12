@@ -11,12 +11,12 @@
 <?php
     $sql2 = query("SELECT DISTINCT * from content WHERE category = '$category'");
     foreach($sql2 as $key2 => $val2) { ?>
-      <div class="contentA">
+      <div class="content">
         <?php if($val2['title']) { ?>
-          <p class="title"><?=$val2['title']?></p>
+          <h2 class="title"><?=$val2['title']?></h2>
         <?php } ?>
         <?php if($val2['subtitle']) { ?>
-          <p class="subtitle"><?=$val2['subtitle']?></p>
+          <h3 class="subtitle"><?=$val2['subtitle']?></h3>
         <?php } ?>
         <?php if($val2['content']) { ?>
           <pre><?=$val2['content']?></pre>
@@ -68,8 +68,9 @@
         $i++;
       }
     ?>
-
-<div class="contentA">
+<?php
+    $sql2 = query("SELECT DISTINCT * from content WHERE category = '$category'");
+    foreach($sql2 as $key2 => $val2) { ?>
           <?php if($val2['title']) { ?>
             <p class="title"><?= $val2['title'] ?></p>
           <?php } ?>
@@ -88,5 +89,6 @@
               <?php } ?>
           <?php
             }
+          }
           ?>  
         </div>

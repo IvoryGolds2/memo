@@ -8,21 +8,23 @@
   ?>
   <link rel="stylesheet" href="./css/commmon.css">
 </head>
-<section>
-    <?php
-      $sql = query("SELECT * from faq");
-      foreach($sql as $key => $val) { ?>
-      <div class="qnaToggleBox">
-        <button class="toggleButton" data-key="<?=$key?>">
-          <h1 class="toggleColor"><span>Q. </span><?=$val['question']?></h1> 
-          <img class="toggleIcon" src="./img/qna-arrow2.png" alt="Show">
-        </button>
-        <div>
-          <pre class="content" style="display: none;"><?=$val['answer']?></pre>
+<body>
+  <section>
+      <?php
+        $sql = query("SELECT * from faq");
+        foreach($sql as $key => $val) { ?>
+        <div class="qnaToggleBox">
+          <button class="toggleButton" data-key="<?=$key?>">
+            <h1 class="toggleColor"><span>Q. </span><?=$val['question']?></h1> 
+            <img class="toggleIcon" src="./img/qna-arrow2.png" alt="Show">
+          </button>
+          <div>
+            <pre class="content" style="display: none;"><?=$val['answer']?></pre>
+          </div>
         </div>
-      </div>
-    <?php  } ?>  
-  </section>
+      <?php  } ?>  
+    </section>
+</body>
   <script>
     var toggleButtons = document.querySelectorAll(".toggleButton");
     var contents = document.querySelectorAll(".content");

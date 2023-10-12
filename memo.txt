@@ -1,0 +1,14 @@
+<div class="boldFont">초기 상담 및 서비스 신청</div>
+주민센터, 복지로(www.bokjiro.go.kr)에서 서비스 신청을 접수합니다.
+
+<div class="boldFont">대상자 통합조사 및 심사</div>
+주민센터에서 서비스에 대한 조사 및 심사를 진행합니다.
+
+<div class="boldFont">대상자 확정</div>
+시군구에서 서비스 지급을 위한 대상자를 결정합니다.
+
+<div class="boldFont">서비스 지원</div>
+한국자활복지개발원에서 대상자에게 서비스를 지급합니다.
+
+<div class="boldFont">(기준 중위소득 중위 50% 이하)</div>
+시군구에서 서비스 제공 이후 대상자의 상황 관련 사항을 관리합니다.
