@@ -9,7 +9,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 0 3%;
+  padding: 1.5rem;
   position: relative;
   border-bottom: 0.1rem solid #c59aaa;
 }
@@ -34,7 +34,9 @@ position: absolute;
 left: 3%;
 }
 
-
+img {
+  width: 100%
+}
 
 /* index 영역 */
 .indexBackgroundImage {

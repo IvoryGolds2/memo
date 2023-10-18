@@ -5,7 +5,6 @@
 <?php 
     include './db.php';
     include './front_header.php';
-    $category = $_POST['category'];
   ?>
 </head>
 <body>

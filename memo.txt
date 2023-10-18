@@ -1,14 +1,16 @@
-<div class="boldFont">초기 상담 및 서비스 신청</div>
-주민센터, 복지로(www.bokjiro.go.kr)에서 서비스 신청을 접수합니다.
+1. api json 사용시 (house_api.js)
+- 추가
+var lh_m_remove =  lh_address.replace('https://m.', 'https://');
+- 변수명 변경
+lh_address → lh_m_remove
 
-<div class="boldFont">대상자 통합조사 및 심사</div>
-주민센터에서 서비스에 대한 조사 및 심사를 진행합니다.
+2. 공용 db 사용시
+str_replace("https://m.", "https://", $value['DTL_URL_MOB']);
 
-<div class="boldFont">대상자 확정</div>
-시군구에서 서비스 지급을 위한 대상자를 결정합니다.
+3. 리뉴얼 lh 맵 addresses1, addresses2 배열 둘다 변경
+- 추가 (261번줄 아래, 330번줄 아래)
+var lh_m_remove =  url.replace('https://m.', 'https://');
+- 변수명 변경 (285, 354)
+url → lh_m_remove
 
-<div class="boldFont">서비스 지원</div>
-한국자활복지개발원에서 대상자에게 서비스를 지급합니다.
-
-<div class="boldFont">(기준 중위소득 중위 50% 이하)</div>
-시군구에서 서비스 제공 이후 대상자의 상황 관련 사항을 관리합니다.
+https://apply.lh.or.kr/lhapply/main.do

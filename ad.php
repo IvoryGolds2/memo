@@ -2,7 +2,7 @@
 <div class="ads_wrap ads_main_big">
     <ins class="adsbygoogle"
         data-ad-client="ca-pub-코드번호"
-        data-ad-slot="slot번호"
+        data-ad-slot="수동slot번호"
         data-language="ko"
         ></ins>
     <script>
@@ -16,7 +16,7 @@
         style="display: block;"
         data-language="ko"
         data-ad-client="ca-pub-코드번호"
-        data-ad-slot="slot번호"
+        data-ad-slot="멀티slot번호"
         data-ad-format="autorelaxed"
         data-matched-content-ui-type="image_sidebyside,image_sidebyside"
         data-matched-content-rows-num="4,1"
@@ -38,6 +38,8 @@
     (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 <!-- 아주 좋은 광고 예제 -->
+$itemCount = mysqli_num_rows($sql2);
+echo $itemCount;
 <div class="contentbox">
         <?php
         $sql2 = query("SELECT DISTINCT title from content WHERE category = '$category'");

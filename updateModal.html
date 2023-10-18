@@ -1,0 +1,34 @@
+<style>
+	.modal {position: relative;display: none;width: 100%;height: 100%;position: fixed;left: 0;top: 0;}
+	.modal .in {z-index: 10;position: absolute;left: 50%;top: 50%;max-width: 700px;width: 85%;height: fit-content;transform: translate(-50%, -50%);padding: 2rem;background-color: rgba(255, 255, 255, .9);box-shadow: 0 0 1rem rgba(0, 0, 0, .3), 0 0 1rem #fff inset;border-radius: 1rem;}
+	.modal h1 {font-size: 2rem;font-weight: bold;padding-bottom: 1rem;border-bottom: 2px solid #5968a8;margin-bottom: 1rem;text-align: center;}
+	.modal p {font-size: 1.6rem;line-height: 1.4;margin-bottom: 1rem;text-align: center;color:#333 !important;}
+	.modal span a {font-size: 1.6rem;font-weight: 500;color: #5968a8;margin-bottom: 2rem;}
+	.modal .btn_wrap {padding-top: 1.5rem;display: flex;justify-content: space-evenly;}
+	.modal .btn_wrap button, .modal .btn_wrap a {font-size: 1.8rem;font-weight: bold;width: 100%;border: none;text-align:center;}
+	.modal .bg {background-color: rgba(0, 0, 0, .3);width: 100%;height: 100%;position: relative;z-index: 5;}
+	.modal.active {display: block;}
+</style>
+
+<div class="modal">
+  <div class="in">
+      <h1>알림</h1>
+      <p>
+          새 버전이 업데이트되었습니다. 스토어에서 업데이트해주시기 바랍니다.
+      </p>
+      <div class="btn_wrap">
+          <!-- <button type="button" onclick="cancel()">취소</button> -->
+          <a href="https://play.google.com/store/apps/details?id=com.novd.writtentest" target="_blank">업데이트</a>
+      </div>
+  </div>
+  <div class="bg"></div>
+</div>
+
+<script>
+  document.querySelector('body').style.overflow = 'hidden';
+  document.querySelector('.modal').classList.add('active');
+  function cancel() {
+      const modal = document.querySelector('.modal');
+      modal.classList.remove('active');
+  }
+</script>

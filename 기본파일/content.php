@@ -14,9 +14,13 @@
         <img src="./img/prev.png" alt="">
       </button>
     </a>
-      <div>
-        <h1></h1>
-      </div>
+    <?php
+      $sql = query("SELECT DISTINCT header from content WHERE category = '$category'");
+      foreach($sql as $key => $val) { ?>
+        <div>
+          <h1><?=$val['header']?></h1>
+        </div>
+    <?php } ?>  
   </header>
   <section>
   <?php
