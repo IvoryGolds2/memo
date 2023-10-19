@@ -1,0 +1,517 @@
+/* 전체 */
+h1 {
+font-size: 2.5rem;
+font-weight: 700;
+}
+h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.3;
+}
+pre {
+  font-size: 1.8rem;
+  line-height: 1.3;
+}
+h4 {
+  color: #4faaeb;
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+.margin1 {
+  margin-bottom: 1rem;
+}
+/* index 영역 */
+.indexBackgroundImage {
+  background-color: #2885ea;
+  min-height: 100vh;
+  height: 100%;
+}
+.indexText {
+  font-size: 3rem;
+  color: #fff;
+  line-height: 1.5;
+  margin-top: 35%;
+  margin-left: 8%;
+}
+.indexImg {
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 20%;
+}
+/* home 영역 */
+header {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  padding: 1.5rem;
+}
+header a img {
+  width: 2.5rem;
+}
+.homeinnerWrapper {
+  padding: 0 2rem 5rem 2rem;
+}
+.homeCute {
+  display: flex;
+}
+.homeCute div {
+  width: 55%;
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 1.3;
+}
+.homeCute img {
+  width: 45%;
+}
+.longbtn img {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+.longTop img{
+  margin-top: -10%;
+  margin-bottom: 1rem;
+}
+.homeMidBtn {
+  display: flex;
+  justify-content: space-between;
+}
+.homeMidBtn a {
+  width: 48.5%;
+}
+.homeNews {
+  display: flex;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+.homeNews div {
+  width: 75%;
+  font-size: 2.3rem;
+  font-weight: 700;
+  line-height: 1.3;
+}
+.homeNews a {
+  width: 25%;
+}
+a img {
+  width: 100%;
+}
+
+.mySwiper {
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  overflow: hidden;
+  overflow: clip;
+  list-style: none;
+  padding: 0;
+  z-index: 1;
+  display: block;
+}
+.swiper-slide a {
+  background-color: #f0f7fc;
+  border-radius: 1rem;
+  padding: 2rem 1rem;
+  display: block;
+  margin-right: 0;
+  height: 20rem;
+  overflow: hidden;
+  position: relative;
+}
+.swiper-slide a h2 {
+  font-size: 1.6rem;
+}
+.swiper-slide a pre {
+  font-size: 1.4rem;
+  margin-top: 1rem;
+}
+.swiper-slide a h4 {
+  font-size: 1.4rem;
+  position: absolute;
+  bottom: 1rem;
+}
+/* menu 영역 */
+.menuh1 {
+  margin-bottom: 3rem;
+}
+.menuBox {
+  background-color: #f0f7fc;
+  padding: 2rem 1.5rem 0 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  border-radius: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+}
+.menuBox a {
+  font-size: 1.7rem;
+  width: 50%;
+  margin-bottom: 2rem;
+  font-weight: 500;
+}
+.menuBox2 {
+  background-color: #f0f7fc;
+  padding: 2rem 1.5rem 0 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  border-radius: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+}
+.menuBox2 a {
+  font-size: 1.7rem;
+  width: 33%;
+  margin-bottom: 2rem;
+  font-weight: 500;
+}
+.linkBox {
+  background-color: #f0f7fc;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 1.5rem;
+  width: 100%;
+  border-radius: 1rem;
+  margin-top: 1rem;
+  font-size: 1.7rem;
+  font-weight: 500;
+
+}
+.linkBox img {
+  width: 5%;
+}
+.menuLast {
+  margin-bottom: 5rem;
+}
+.loneLastbtn {
+  display: block;
+  margin-top: 2rem;
+}
+/* atoz 영역 */
+.contentHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem;
+}
+
+.contentHeader a img {
+  width: 2.5rem;
+}
+
+.blueBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem;
+  background-color: #1a72e7;
+  margin-bottom: 4rem;
+}
+.blueBox h3 {
+  display: block;
+  font-size: 1.8rem;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 1.5rem;
+  line-height: 1.3;
+}
+.blueBox h1 {
+  color: #fff;
+  margin-bottom: 2.5rem;
+}
+.inBlueBtn {
+  display: flex;
+  justify-content: center;
+}
+.inBlueBtn a {
+  width: 30%;
+}
+.inBlueBtn a:first-child {
+  margin-right: 1rem;
+}
+.atozMenu {
+  margin-top: 2rem;
+}
+.atozMenu a {
+  font-size: 1.6rem;
+  font-weight: 600;
+  padding: 1rem;
+  background-color: #f0f7fc;
+  display: inline-block;
+  margin-bottom: 0.5rem;
+  margin-right: 0.5rem;
+  border-radius: 0.5rem;
+}
+.atozBox {
+  margin: 3rem 0;
+}
+.atozBox h2 {
+  margin-bottom: 1rem;
+}
+.atozBox pre {
+  color: #5d5d66;
+}
+.atozBox img {
+  width: 100%;
+}
+.swiper {
+  padding-bottom: 3rem;
+}
+.swiper-pagination {
+  bottom: 1rem !important;
+  text-align: center;
+  transform: translateY(.5rem);
+}
+.atozMenu .on {
+  background-color: #1a72e7;
+  color: #fff;
+  font-weight: 400;
+}
+
+/* 용어사전 영역 */
+.dicTop h1{
+  margin-bottom: 1rem;
+}
+.dicTop pre{
+  color: #a6b0c0;
+  margin-bottom: 2rem;
+}
+.dicMenu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+.dicMenu a {
+  font-size: 1.6rem;
+  font-weight: 600;
+  padding: 1rem 1.7rem;
+  background-color: #f0f7fc;
+  display: inline-block;
+  margin-bottom: 0.5rem;
+  margin-right: 0.5rem;
+  border-radius: 0.5rem;
+}
+.dicMenu .on {
+  background-color: #1a72e7;
+  color: #fff;
+  font-weight: 400;
+}
+.dicBox {
+  padding: 1.5rem 1rem;
+  border: 0.1rem solid #ececec;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+}
+.dicBox h2 {
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+.dicBox pre {
+  color: #8694a9;
+}
+
+/* tip */
+.tipMenuBox {
+  display: block;
+  padding: 2rem 1.5rem;
+  margin-bottom: 1rem;
+  border: #efefef 0.1rem solid;
+  border-radius: 1rem;
+}
+.tipMenuBox h2 {
+  margin-bottom: 2rem;
+}
+.tipMenuBox h4 {
+  color: #4faaeb;
+  font-size: 1.6rem;
+}
+
+.purpleBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem;
+  background-color: #713bdb;
+  margin-bottom: 4rem;
+}
+.purpleBox h3 {
+  display: block;
+  font-size: 1.6rem;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 1.5rem;
+  line-height: 1.3;
+}
+.purpleBox h1 {
+  color: #fff;
+  margin-bottom: 2.5rem;
+}
+.stupid img {
+  margin-top: 2rem;
+}
+
+/* changed영역 */
+.changedMenu {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.changedMenuBox {
+  display: block;
+  padding: 2rem 1.5rem;
+  margin-bottom: 1rem;
+  border-radius: 1rem;
+  background-color: #f0f7fc;
+  width: 49%;
+  height: 15rem;
+  overflow: auto;
+}
+.changedMenuBox h2 {
+  margin-bottom: 1rem;
+  line-height: 1.2;
+  font-size: 1.6rem;
+}
+.changedMenuBox pre {
+  color: #909db1;
+  font-size: 1.2rem;
+}
+
+.cuteimg {
+  width: 100%;
+}
+.changedWrapper {
+  padding: 4rem 2rem;
+}
+.changedContent {
+  margin-bottom: 2rem;
+}
+.changedContent h1, h4, pre {
+  margin-bottom: 1.5rem;
+}
+
+
+/* faq영역 */
+.qnaToggleBox {
+  border: 0.1rem solid #e4e4e4;
+  margin-bottom: 1rem;
+  border-radius: 1rem;
+}
+.qnaToggleBox h1 {
+  font-size: 1.7rem;
+  font-weight: 600;
+  display: flex;
+}
+.qnaToggleBox .q {
+  font-size: 1.7rem;
+  font-weight: 600;
+  color: #1972e7;
+  margin-right: 0.8rem;
+  margin-top: 1%;
+}
+
+.qnaToggleBox .content {
+  margin: 0 2rem 2rem 2rem;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  font-size: 1.6rem;
+  line-height: 1.3;
+  background-color: #f0f7fc;
+  color: #96a2b6;
+  position: relative;
+}
+.qnaToggleBox .content a {
+  display: block;
+  position: absolute;
+  right: 5%;
+  bottom: 1rem;
+  font-size: 1.2rem;
+  color: #2479e8;
+  border-bottom: 0.1rem solid #2479e8;
+}
+
+.toggleButton {
+  width: 100%;
+  margin-right: 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  padding: 1.5rem 2rem 1.5rem 2rem;
+}
+.toggleButton img {
+  width: 1.5rem;
+  margin-left: 1rem;
+}
+.toggleColor {
+  text-align: left; /* 텍스트를 왼쪽 정렬로 설정 */
+  margin: 0; /* 기본 마진 제거 */
+  padding: 0; /* 기본 패딩 제거 */
+  line-height: 1.3;
+}
+.a {
+  font-size: 1.6rem;
+  color: #1972e7;
+}
+.qnaTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.qnaTop h1 {
+  width: 60%;
+  line-height: 1.3;
+}
+.qnaTop img {
+  width: 40%;
+}
+
+/* news */
+.newslist li {
+  padding: 2rem;
+  border: 0.1rem solid #ebebeb;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+}
+.newslist li h1 { 
+  margin-bottom: 2rem;
+  line-height: 1.2;
+}
+.newslist li h4 { 
+  margin-bottom: 0;
+}
+
+.box {
+  padding: 2rem;
+  border: 0.1rem solid #ebebeb;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+}
+.box h1 {
+  padding-bottom: 1.5rem;
+  margin-bottom: 1.5rem;
+  border-bottom: 0.1rem solid #ebebeb;
+  line-height: 1.2;
+}
+.box img {
+  width: 100%;
+
+}
+.box a {
+  display: block;
+  background-color: #1a72e7;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  text-align: center;
+  color: #fff;
+  margin-top: 5rem;
+  font-weight: 500;
+  font-size: 1.8rem;
+}
