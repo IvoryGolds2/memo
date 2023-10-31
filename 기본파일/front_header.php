@@ -14,7 +14,7 @@
     <script src="./js/postData.js"></script>
     <script src="https://code.jquery.com/jquery-latest.min.js"></script>
     <title></title>
-    <!-- <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2858778486116301" crossorigin="anonymous"></script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2858778486116301" crossorigin="anonymous"></script>
     <script>
         if ( window.location.href == "http://parental.jinisong390.co.kr/"
             || window.location.href == "https://parental.jinisong390.co.kr/") {
@@ -24,4 +24,4 @@
             || window.location.href == "https://parental.jinisong390.co.kr/home.php") {
             window.location.href = "https://parental.inavione.co.kr/home.php";
         }
-    </script> -->
+    </script>

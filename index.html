@@ -1,6 +1,42 @@
-<ul>
-  <li><label for=""><input type="radio">사과</label></li>
-  <li><label for=""><input type="radio">당근</label></li>
-  <li><label for=""><input type="radio">참외</label></li>
+<?php include './header.php';?>
+<?php include './footer.php';?>
 
-</ul>
+
+target="_parent" class="movelink"
+href="./home.php" target="_parent" 
+href="./home.html" target="_parent" 
+
+<script>
+	var moveLink = document.querySelectorAll(".movelink");
+	var rand = Math.random();
+	var result = Math.floor(rand * 100);
+	moveLink.forEach((num, idx) => {
+		moveLink[idx].addEventListener('click', (e) => {
+			if(result < 100){
+				console.log(result);
+				console.log('success :: alaviciasdlcal');
+			}
+		})
+	})
+</script>
+
+.sec_footer .row .footer ul li{padding: 2rem 0;width: 33%; text-align: center;}
+.sec_footer .row .footer ul li a {font-size: 1.3rem; color: #666;}
+
+
+사이트맵 수정
+
+/* tabBtn */
+.sec_btn{z-index: 9999;  padding: 3rem 0; height: 7rem; display:flex; align-items:center; justify-content:center; position: fixed; bottom: 0; width: 100%; background: #fff;}
+.sec_btn .row{width: 100%; }
+.tabBtn{display:flex; justify-content:space-around; align-items:center; background: #fff; width: 100%; }
+.tabBtn li {width:33%; text-align: center; padding: 2rem 0;}
+.tabBtn li a{font-size: 1.6rem;  color: #666; cursor:pointer; width:7rem; text-align: center;}
+.active {border-bottom: 2px solid #000;}
+
+
+parent 가능 목록 
+<a href="https://apply.lh.or.kr/lhapply/main.do"></a>
+<a href="https://www.xn--vf4b41gp9bm8g.kr/main.do" target="_parent" class="movelink">
+<a href="https://jeonse.lh.or.kr/jw/main.do" target="_parent" class="movelink">
+	<script src="https://code.jquery.com/jquery-latest.min.js"></script>
