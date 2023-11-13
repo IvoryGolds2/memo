@@ -1,37 +1,27 @@
 /* 공통스타일링 */
-.innerWrapper {
-  padding: 1rem 1.5rem 1.5rem 1.5rem;
+@font-face {
+  font-family: "nanum";
+  src: url("./font/NanumSquare_acR.ttf");
 }
-.homeinnerWrapper{
-  padding: 0rem 1.5rem 1.5rem 1.5rem;
+@font-face {
+  font-family: "nanumThin";
+  src: url("./font/NanumSquareL.ttf");
 }
-.contentHeader {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 1.5rem;
-  position: relative;
-  border-bottom: 0.1rem solid #c59aaa;
+@font-face {
+  font-family: "nanumThick";
+  src: url("./font/NanumSquare_acEB.ttf");
 }
-
-.contentHeader button {
-border: none;
-background-color: transparent;
-cursor: pointer;
-margin-right: 10px;
-display: flex;
-align-items: center;
+@font-face {
+  font-family: "gmarketBold";
+  src: url("./font/GmarketSansTTFBold.ttf");
 }
-.contentHeader h1 {
-text-align: center;
-margin: 0;
-font-size: 1.8rem;
-font-weight: 500;
+@font-face {
+  font-family: "gmarketLight";
+  src: url("./font/GmarketSansTTFLight.ttf");
 }
-.contentHeader img {
-width: 1rem;
-position: absolute;
-left: 3%;
+@font-face {
+  font-family: "gmarketMedium";
+  src: url("./font/GmarketSansTTFMedium.ttf");
 }
 
 img {
@@ -43,6 +33,7 @@ img {
   background: url(../img/index/splash.png);
   background-size: cover;
   position: relative;
+  min-height: 100vh;
   }
   .indexText {
   width: 60%;
@@ -76,6 +67,9 @@ img {
 
 
 /* 홈영역 */
+.homeinnerWrapper{
+  padding: 0rem 1.5rem 1.5rem 1.5rem;
+}
 .backgroundcolorwrapper {
 margin: 0;
 padding: 0;
@@ -91,4 +85,38 @@ width: 30%;
 }
 .homeHeaderimg img {
 width: 100%;
+}
+
+/* content */
+.innerWrapper {
+  padding: 1rem 1.5rem 1.5rem 1.5rem;
+}
+
+.contentHeader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+  position: relative;
+  border-bottom: 0.1rem solid #c59aaa;
+}
+
+.contentHeader button {
+border: none;
+background-color: transparent;
+cursor: pointer;
+margin-right: 10px;
+display: flex;
+align-items: center;
+}
+.contentHeader h1 {
+text-align: center;
+margin: 0;
+font-size: 1.8rem;
+font-weight: 500;
+}
+.contentHeader img {
+width: 1rem;
+position: absolute;
+left: 3%;
 }

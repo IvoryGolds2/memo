@@ -1,0 +1,176 @@
+main {
+  background: #f4f3f2;
+  min-height: 100vh;
+  padding-bottom: 13.5rem;
+}
+main header {
+  background: #fff;
+}
+.home {
+  padding: 1.5rem;
+  display: block;
+  width: fit-content;
+}
+.home img{
+  width: 3rem;
+}
+.search_wrap {
+  display: flex;
+  flex-direction: column;
+  padding: 3rem 1.5rem;
+  background: linear-gradient(132deg, #0258e0, #1994bb, #27baa3);
+}
+.search_wrap p {
+  color: #fff;
+}
+.search_wrap p:nth-child(1) {
+  font-size: 2rem;
+  font-weight: 600;
+}
+.search_wrap p:nth-child(3) {
+  font-size: 1.4rem;
+  margin: 1rem 0;
+}
+.search_wrap p:nth-child(4) {
+  font-size: 1.4rem;
+  font-weight:500;
+}
+.search_wrap .input_wrap { 
+  border-bottom: 1px solid #fff;
+  padding: .5rem;
+  margin-top:3rem;
+  display: flex;
+  justify-content: space-between;
+}
+.search_wrap .input_wrap #input_box {
+  width: 80%;
+  font-size: 1.6rem;
+  color: #fff;
+  background: none;
+}
+.search_wrap .input_wrap #input_box::placeholder {
+  color: #ffffff94;
+}
+.search_wrap .input_wrap #input_box:focus {
+  border: none;
+  outline: none;
+}
+.search_wrap .input_wrap #search_btn { 
+  width: 11%;
+  padding: 1rem;
+  font-size: 1.6rem;
+  text-indent: -9999px;
+  background: url(../img/search.png) no-repeat center / 70%;
+}
+/* 결과값 */
+.result.main_book > .empty_result:nth-child(1) {
+  padding: 6rem 0 3rem;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #b3b3b3;
+  line-height: 1.5;	
+}
+.result { 
+  background: #fff;
+  position: relative;
+}
+.result.main_book:before {
+  content: '자주 찾는 주소';
+  position: absolute; 
+  top: 1.9rem;
+  left: 1.5rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+.result.main_book > li:nth-child(1) {
+  padding: 4.5rem 0 3rem;
+}
+.result > li {
+  border-bottom: 1px solid #ddd;
+  position: relative;
+  padding: 3rem 0;
+}
+.result > li > div {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0.8rem 1.5rem;
+  gap: 1rem;
+  align-items: center;
+  position: relative;
+}
+.result > li > div:before {
+  font-size: 1.4rem;
+  font-weight: 700;
+  width: 100%;
+  color: #19498f;
+}
+.result > li > div.zipNo:before {
+  content: '우편번호';
+}
+.result > li > div.lnmAdres:before {
+  content: '도로명[한글]';
+}
+.result > li > div.rnAdres:before {
+  content: '지번명[한글]';
+}
+.result > li > div.roadAddr:before {
+  content: '도로명[영어]';
+}
+.result > li > div.jibunAddr:before {
+  content: '지번명[영어]';
+}
+.result > li > div p {
+  font-size: 1.6rem;
+  width: 80%;
+  line-height: 1.3;
+}
+.result > li > div .copy_btn {
+  text-indent: -9999px;
+  width: 5rem;
+  height: 2.3rem;
+  background: url(../img/copy.png) no-repeat center / 80%;
+  z-index: 9998;
+
+}
+.result > li .book {
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+  background-image: url(../img/star_2.png);
+  background-repeat: no-repeat;
+  background-size: 70%;
+  background-position: center;
+  width: 3rem;
+  height: 3rem;
+}
+.result > li .book.on {
+  background-image: url(../img/star_1.png);
+}
+.result .no_data {
+  padding: 3rem 0;
+}
+.result .no_data p {
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #b3b3b3;
+  line-height: 1.5;
+}
+/* 하단 설명문 */
+.notice {
+  position: fixed;
+  bottom: 2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  width: calc(100% - 3rem);
+  padding: 1.5rem 1rem;
+  background: #ebf8fc;
+  z-index: 9999;
+  border: 1px solid #eee;
+}
+.notice p {
+  line-height: 1.3;
+  font-size: 1.4rem;
+}
