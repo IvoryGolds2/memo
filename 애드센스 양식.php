@@ -37,6 +37,7 @@
 <script>
     (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+
 <!-- 아주 좋은 광고 예제 -->
 $itemCount = mysqli_num_rows($sql2);
 echo $itemCount;
