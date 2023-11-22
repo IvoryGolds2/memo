@@ -1,3 +1,6 @@
+<!-- 수동광고, 멀티플렉스, 인아티클 광고는 각각 아래의 코드를 갖다 쓰고  https://docs.google.com/spreadsheets/d/1mKrbjHgGMHLAMWcKDPYOGlplZ3qc0XpTqOrNSLlPz-Q/edit#gid=1178857006 여기서 리다이렉트용 주소 해당하는 계정 찾아서 
+https://docs.google.com/spreadsheets/d/1mKrbjHgGMHLAMWcKDPYOGlplZ3qc0XpTqOrNSLlPz-Q/edit#gid=1935030084 여기서 코드를 확인하실 수 있습니다. 인피드 광고를 삽입해야하는 상황이라면 기획자분께 발급을 요구하여 삽입하여야됩니다.(지금은 찬희님 담당)-->
+
 <!-- 수동광고 -->
 <div class="ads_wrap ads_main_big">
     <ins class="adsbygoogle"
@@ -27,20 +30,19 @@
     </script>
 </div>
 
-<!-- 아티클 -->
+<!-- 인아티클 -->
 <ins class="adsbygoogle"
     style="display:block; text-align:center;"
     data-ad-layout="in-article"
     data-ad-format="fluid"
-    data-ad-client="ca-pub-2858778486116301"
-    data-ad-slot="4558011621"></ins>
+    data-ad-client="ca-pub-코드번호"
+    data-ad-slot="인아티클slot번호"></ins>
 <script>
     (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
 <!-- 아주 좋은 광고 예제 -->
-$itemCount = mysqli_num_rows($sql2);
-echo $itemCount;
+<!-- 마지막 부분에만 사이즈가 다른 광고가 들어가는 경우 유용합니다! -->
 <div class="contentbox">
         <?php
         $sql2 = query("SELECT DISTINCT title from content WHERE category = '$category'");

@@ -1,0 +1,72 @@
+
+/* faq영역 */
+.innerWrap {
+  padding: 2rem 1.5rem;
+}
+.innerWrap h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #22a67c;
+  margin-bottom: 2rem;
+}
+.qnaToggleBox {
+  background-color: #d2eae2;
+  margin-bottom: 1rem;
+  border-radius: 0.8rem;
+  border: 0.1rem solid #dbdcdc;
+}
+.qnaToggleBox:first-child {
+  margin-top: 2rem;
+}
+.qnaToggleBox:last-child {
+  margin-bottom: 3rem;
+}
+
+
+.qnaToggleBox h1 {
+  font-size: 1.7rem;
+  font-weight: 600;
+  color: #259486;
+}
+
+
+.qnaToggleBox .content {
+  padding: 2rem;
+  font-size: 1.6rem;
+  line-height: 1.3;
+  background-color: #fffafe;
+  color: #969597;
+  border-bottom-left-radius: 0.8rem;
+  border-bottom-right-radius: 0.8rem;
+}
+.bold {
+  font-size: 1.7rem;
+  line-height: 1.3;
+  font-weight: 600;
+  color: #0f4b42;
+}
+
+.toggleButton {
+  width: 100%;
+  margin-right: 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 2rem 1.5rem 2rem;
+}
+.toggleButton img {
+  width: 1.5rem;
+  margin-left: 1rem;
+}
+.toggleColor {
+  text-align: left; /* 텍스트를 왼쪽 정렬로 설정 */
+  margin: 0; /* 기본 마진 제거 */
+  padding: 0; /* 기본 패딩 제거 */
+  line-height: 1.3;
+}
+.content img {
+  width: 100%;
+}
+.content img:first-child {
+  margin-bottom: 1rem;
+}
