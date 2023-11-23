@@ -8,11 +8,14 @@
     <meta name="google-site-verification" content="l-4dhiJdxGRyKMUr3l4d334vllaOIBhb3hT8aQw-VTw" />
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/commmon.css">
-    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/> -->
-    <!-- SWIPER -->
-    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
-    <script src="./js/postData.js"></script>
+    <!-- swiper -->
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <!-- <script src="./js/postData.js"></script> -->
     <title></title>
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2858778486116301" crossorigin="anonymous"></script>
     <script>

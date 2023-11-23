@@ -1,0 +1,267 @@
+
+/* 공통스타일링 */
+@font-face {font-family: "kbiz";src: url("./font/KBIZ한마음명조 M.ttf");}@font-face {font-family: "nanum";src: url("./font/NanumSquare_acR.ttf");}@font-face {font-family: "nanumThin";src: url("./font/NanumSquareL.ttf");}@font-face {font-family: "nanumThick";src: url("./font/NanumSquare_acEB.ttf");}@font-face {font-family: "gmarketBold";src: url("./font/GmarketSansTTFBold.ttf");}@font-face {font-family: "gmarketLight";src: url("./font/GmarketSansTTFLight.ttf");}@font-face {font-family: "gmarketMedium";src: url("./font/GmarketSansTTFMedium.ttf");}img {width: 100%}
+
+
+
+/* index 영역 */
+.indexBackgroundImage {background: url(../img/index.png);background-size: cover;position: relative;min-height: 100vh;}
+
+
+
+/* 홈영역 */
+.homeinnerWrapper{padding: 0rem 1.5rem 1.5rem 1.5rem;}
+.backgroundcolorwrapper {margin: 0;padding: 0;}
+.homeHeader {display: flex;align-items: center;justify-content: center;}
+.homeHeaderimg {width: 30%;}
+.homeHeaderimg img {width: 100%;}
+.homeBG {
+    background: url(../img/main_bg.png);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-size: cover;
+    min-height: 100vh;
+}
+#app {
+    width: 60%;
+    overflow: hidden;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+    background: #fff url(../img/img_loginbox.png) center / cover;
+    box-shadow: 10px 10px 8px rgba(135, 109, 78, 0.305);
+}
+.out {
+    display: block;
+    text-align: right;
+    margin-bottom: 5rem;
+    width: 75%;
+    font-family: kbiz;
+    font-size: 1.2rem;
+}
+
+.bearImg {width: 60%;margin-top: 5rem;height: 45vh;object-fit: contain;}
+.tabs {display: flex;justify-content: space-between;}
+.tab {flex: 1;padding: 10px;text-align: center;background: none;border: none;cursor: pointer;transition: background-color 0.3s ease;color: #333;background-color: #c3b8a8;}
+.tab:active,.tab:focus {outline: none;}
+.tab.active {background: url(../img/img_loginbox.png); background-size: 100%; background-position: center;} 
+form {padding: 20px;}
+form:last-child {border-bottom: none;}h2 {margin-bottom: 20px;color: #333;text-align: center;}input {width: 50%;padding: 10px;border-radius: 1rem;font-size: 1.4rem;cursor: pointer;transition: background-color 0.2s ease;font-family: kbiz;}
+.tabs button {font-size: 1.6rem;color: #fff;font-family: kbiz;font-weight: bold;}
+input {border: none;outline: none;background: none;width: 100%;}
+#registerForm div #checkUsername {width: 60%;}
+#registerForm div, #loginForm div {display: flex;align-items: center;border-bottom: 0.2rem #ffffff8f solid;font-size: 1.4rem;color: #fff;font-family: kbiz;justify-content: space-between;text-align: center;line-height: 1.4;}
+#checkDuplicate {padding: 0.7rem 1rem;background-color: #ffffff93;border-radius: 0.7rem;font-size: 1.2rem;display: block;font-family: kbiz;color: #787777;outline: none;}
+.submitBtn {padding: 1rem;display: block;width: 100%;background-color: #ffffff93;border-radius: 0.7rem;margin: 0 auto;margin-top: 2rem;font-size: 1.6rem;font-family: kbiz;color: #787777;font-weight: 600;}
+.goMyTree {background: url(../img/btn.png);width: 80%;padding: 1.5rem;display: none;margin: 0 auto;border-radius: 1rem;background-size: cover;font-size: 1.6rem;font-family: kbiz;color: #545252;margin-bottom: 5rem;box-shadow: 5px 5px 7px rgba(135, 109, 78, 0.5);font-weight: 600;}
+.goMyTree.active {display: block;}
+.pwck {display: block;width:fit-content;font-size: 1.4rem;font-family: kbiz;line-height: 1.2;color: #fff;text-align: start;white-space: nowrap;}
+
+form.homeform {
+    display: none;
+}
+form.homeform.active {
+    display: block;
+}
+
+
+/* myChristmasTree */
+.backgroundImage {background-image: url(../img/bgbg.png);background-size: cover;position: relative;min-height: 100vh;}
+.innerWrapper {padding: 3rem;}
+h1 {font-size: 2rem;line-height: 1.3;font-family: kbiz;margin-bottom: 1rem;}
+.nic {font-size: 2rem;line-height: 1.3;font-family: kbiz;margin-bottom: 1rem;font-weight: 600;}
+.innerWrapper h3 {margin-bottom: 3rem;}
+h3 {font-size: 1.7rem;line-height: 1.3;font-family: kbiz;}
+h4 {font-size: 1.4rem;font-family: kbiz;overflow: hidden;text-overflow: ellipsis;width: 80%; }
+.specialText {font-weight: 600;letter-spacing: -1px;}
+.redFont {font-size: 1.7rem;line-height: 1.3;font-family: kbiz;color: #9c1d00;font-weight: 600;}
+.christmasTree {position: relative;width: 32rem;margin: 0 auto;}
+.christmasTree h4 {font-weight: 600;height: 1.5rem;}
+.gift {position: absolute;width: 7rem;display: flex;flex-direction: column;align-items: center;justify-content: center;overflow: hidden;white-space: nowrap;text-align: center;}
+.gift:nth-child(2){top: 0rem;left: 50%;transform: translateX(-50%);}
+.gift:nth-child(3) {top: 9rem;left: 9rem;}
+.gift:nth-child(4) {top: 9rem;right: 9rem;}
+.gift:nth-child(5) {top: 18rem;left: 6rem;}
+.gift:nth-child(6) {top: 18rem;left: 50%;transform: translateX(-50%);}
+.gift:nth-child(7) {top: 18rem;right: 6rem;}
+.gift:nth-child(8) {top: 27rem;left: 3rem;}
+.gift:nth-child(9) {top: 27rem;left: 9rem;}
+.gift:nth-child(10) {top: 27rem;right: 9rem;}
+.gift:nth-child(11) {top: 27rem;right: 3rem;}
+.gift:nth-child(12) {top: 36rem;left: -1rem;}
+.gift:nth-child(13) {top: 36rem;left: 6rem;}
+.gift:nth-child(14) {top: 36rem;left: 50%;transform: translateX(-50%);}
+.gift:nth-child(15) {top: 36rem;right: 6rem;}
+.gift:nth-child(16) {top: 36rem;right: -1rem;}
+.paperBtn {background: url(../img/btn.png);width: 100%;padding: 1.5rem;display: block;margin: 0 auto;border-radius: 1rem;background-size: cover;font-size: 1.6rem;font-family: kbiz;color: #545252;margin-bottom: 1.5rem;box-shadow: 5px 5px 7px rgba(135, 109, 78, 0.5);text-align: center;font-weight: 600;}
+.prevPageLink {position: absolute;top: 50%;left: 0rem;width: 2rem;}
+.nextPageLink {position: absolute;top: 50%;right: 0rem;width: 2rem;}
+
+
+
+/* choose */
+.chooseBG {background: url(../img/sub_bg_2-1.png);background-size: cover;position: relative;width: 100%;min-height: 100vh;}
+.chooseInner {padding: 3rem 1.5rem;position: relative;}
+.chooseInner h1 {text-align: center;margin-bottom: 3rem;}
+.chooseBox {display: flex;flex-wrap: wrap;justify-content: space-between;margin-bottom: 3rem;}
+.chooseBox li {width: 29%;margin-bottom: 2.5rem;background: url(../img/img_iconbox.png);border-radius: 0.7rem;background-size: cover;}
+.chooseBox .selected{border: 0.5rem solid #af432b;border-radius: 0.9rem;}
+.chooseBox li img {width: 100%;box-shadow: 5px 5px 7px rgba(135, 109, 78, 0.2);border-radius: 0.7rem;}
+.chooseTopImg {width: 14rem;display: block;margin: 0 auto;padding-top: 2rem;}
+
+
+
+/* writeCard */
+.cardBG {background: url(../img/card_2.png);background-size: cover;position: relative;min-height: 100vh;}
+.cardTopImg {padding-top: 10rem;width: 100%;}
+.writeCardInner {padding: 3rem 1.5rem;}
+.from {font-size: 1.8rem;display: flex;align-items: center;border-bottom: 0.1rem solid #e2e3e3;margin-bottom: 3rem;padding-bottom: 0.5rem;margin-top: 3rem;}
+.from input {border: none;outline: none;border-radius: 0;padding: 0;margin: 0;}
+.from h3 {width: 20%;font-weight: 600;width: 25%;}
+.writeCardInner .letter {width: 100%;min-height: 40vh;border-radius: 1rem;border: 0.1rem solid #e2e3e3;outline: none;background-color: #fff;overflow-wrap: break-word;display: flex;justify-content: start;align-items: start;padding: 2rem;font-size: 1.6rem;font-family: kbiz;margin-bottom: 3rem;line-height: 1.3;}
+.cardTitle {display: flex;align-items: center;}
+.cardTitle img {width: 8rem;margin-left: 1rem;display: block;border-radius: 0.7rem;}
+.cardTitle h1 {margin: 0;}
+
+
+
+/* christmasCard */
+.letterGiftImg {display: block;margin: 0 auto;width: 8rem;margin-bottom: 3rem;margin-top: 1rem;}
+.letterBox {padding: 2rem;border-radius: 1rem;background-color: #fff;min-height: 50vh;border: 0.1rem solid #e2e3e3;margin: 0 2rem;}
+.letterBox pre {font-family: kbiz;font-size: 1.6rem;line-height: 1.4; word-break: break-all;}
+.letterFrom {display: flex;margin: 2rem;justify-content: end;}
+.letterFrom h1 {font-weight: 600;padding-bottom: 0rem;margin-bottom: 0.5rem;}
+.gohomeBtn {width: 5rem;position: absolute;top: 2rem;right: 2rem;}
+.gobackBtn, .gobackBtn1 {width: 5rem;position: absolute;top: 1rem;left: 1rem;}
+
+/* 모달 */
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+  }
+
+  /* 모달 내용의 스타일 */
+  .modal-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    height: 50vh;
+  }
+  .openme {
+    position: absolute;
+    top: 0;
+    width: 40%;
+    z-index: 2;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .letterImg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 70%;
+    z-index: 1;
+
+  }
+  .giftImg {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 20%;
+    z-index: 1;
+
+  }
+.closeModalBtn {
+    position: fixed;
+    top: 0.5rem;
+    right: 1.5rem;
+    color: #fff;
+    font-size: 4rem;
+}
+
+/* 반응형 */
+@media only screen and (max-width: 535px) {
+    .bearImg {width: 100%;height: 40vh;}
+    #app {width: 80%;}
+}
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    body {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .chooseInner{
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+@media only screen and (min-width: 1025px) {
+    body {
+        width: 50%;
+        margin: 0 auto;
+        background-size: auto;
+    }
+    .chooseInner{
+        width: 50%;
+        margin: 0 auto;
+    }
+    .gobackBtn1 {
+        width: 5rem;
+        position: absolute;
+        top: 1.5rem;
+        left: 25%;
+    }
+}
+
+/* withdrawal영역 */
+.withdrawalBox {
+    background: url(../img/img_loginbox.png);
+    background-size: cover;
+    width: 60%;
+    border-radius: 1rem;
+}
+.withdrawalBox div {
+    font-size: 1.6rem;
+    font-family: kbiz;
+    line-height: 1.3;
+    color: #fff;
+}
+.withdrawalBox div input {
+    border-bottom: 0.1rem solid #ffffff90;
+    border-radius: 0;
+    padding: 0.2rem;
+}
+.withdrawalBox div {
+    margin-bottom: 2rem;
+}
+.withdrawalBox button {
+    padding: 0.5rem 1rem;
+    background-color: #ffffff63;
+    font-size: 1.2rem;
+    font-family: kbiz;
+    display: block;
+    border-radius: 0.5rem;
+}
+.withdrawalBox .withdrawalBtn {
+    margin-bottom: 0;
+    display: flex;
+    justify-content: right;
+}
+.withdrawalBox .textout { 
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
