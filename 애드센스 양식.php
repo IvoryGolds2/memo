@@ -31,15 +31,17 @@ https://docs.google.com/spreadsheets/d/1mKrbjHgGMHLAMWcKDPYOGlplZ3qc0XpTqOrNSLlP
 </div>
 
 <!-- 인아티클 -->
-<ins class="adsbygoogle"
-    style="display:block; text-align:center;"
-    data-ad-layout="in-article"
-    data-ad-format="fluid"
-    data-ad-client="ca-pub-코드번호"
-    data-ad-slot="인아티클slot번호"></ins>
-<script>
-    (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div>
+    <ins class="adsbygoogle"
+        style="display:block; text-align:center;"
+        data-ad-layout="in-article"
+        data-ad-format="fluid"
+        data-ad-client="ca-pub-코드번호"
+        data-ad-slot="인아티클slot번호"></ins>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+</div>
 
 <!-- 아주 좋은 광고 예제 -->
 <!-- 마지막 부분에만 사이즈가 다른 광고가 들어가는 경우 유용합니다! -->
